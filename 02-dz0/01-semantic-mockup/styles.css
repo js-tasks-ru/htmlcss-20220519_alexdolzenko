@@ -1,0 +1,64 @@
+.main-header h1 {
+    background-color: red;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.main-nav {
+    background-color: #F9BF3B;
+    margin: 0;
+    padding: 15px;
+}
+
+.main-nav-menu {
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main-nav-menu li {
+    display: inline;
+}
+
+.main-nav-menu li a {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+}
+
+.main-content{
+    background-color: green;
+    padding: 5px;
+    margin: 0;
+}
+
+.main-content-article{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+}
+
+.main-content-article h3{
+    font-size: 25px;
+    margin: 0;
+}
+
+.main-footer{
+    background-color: purple;
+}
+.main-footer h2{
+    margin: 0;
+    font-weight: normal;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
