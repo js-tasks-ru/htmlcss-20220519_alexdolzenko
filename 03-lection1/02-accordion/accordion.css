@@ -1,1 +1,60 @@
 /* Стилизация аккордеона */
+@import '../../assets/css/main.css';
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list__element {
+    width: 730px;
+    border-radius: 8px;
+    border: 1px solid var(--grey-3);
+    margin: 0 auto 8px;
+}
+
+.list__element:last-child {
+    margin-bottom: 0;
+}
+
+.list-card {
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    position: relative;
+}
+
+.list-card__summary::after {
+    position: absolute;
+    right: 32px;
+    content: ' ►';
+}
+
+.list-card[open] .list-card__summary::after {
+    float: right;
+    content: " ▼";
+}
+
+.list-card__summary {
+    padding: 24px 32px 16px;
+    color: var(--black);
+    list-style: none;
+}
+
+.list-card__summary::marker {
+    content: none;
+}
+
+.list_card__sumary::-webkit-details-marker {
+    display: none
+}
+
+.list-card__description {
+    margin: 0;
+    padding: 0 48px 32px 32px;
+    color: var(--grey-4);
+}
