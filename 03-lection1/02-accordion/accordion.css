@@ -1,24 +1,21 @@
 /* Стилизация аккордеона */
-@import '../../assets/css/main.css';
-
-.list {
+.accordion {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.list__element {
-    width: 730px;
+.accordion__item {
     border-radius: 8px;
     border: 1px solid var(--grey-3);
     margin: 0 auto 8px;
 }
 
-.list__element:last-child {
+.accordion__item:last-child {
     margin-bottom: 0;
 }
 
-.list-card {
+.accordion-card {
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
@@ -28,32 +25,32 @@
     position: relative;
 }
 
-.list-card__summary::after {
+.accordion__summary::after {
     position: absolute;
     right: 32px;
-    content: ' ►';
+    content: ' \2192';
 }
 
-.list-card[open] .list-card__summary::after {
-    float: right;
-    content: " ▼";
+.accordion-card[open] .accordion__summary::after {
+    right: 32px;
+    content: ' \2193';
 }
 
-.list-card__summary {
+.accordion__summary {
     padding: 24px 32px 16px;
     color: var(--black);
     list-style: none;
 }
 
-.list-card__summary::marker {
+.accordion__summary::marker {
     content: none;
 }
 
-.list_card__sumary::-webkit-details-marker {
+.accordion__sumary::-webkit-details-marker {
     display: none
 }
 
-.list-card__description {
+.accordion__description {
     margin: 0;
     padding: 0 48px 32px 32px;
     color: var(--grey-4);
