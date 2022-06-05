@@ -12,11 +12,17 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
 
+    --color-primary-blue: #4263EB;
+    --color-secondary-purple: #7048E8;
+    --color-primary-intensive-blue: #2342C0;
+    --color-secondary-intensive-purple: #5028C6;
+
     --error: var(--red);
     --success: var(--blue);
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
 }
 
 * {
