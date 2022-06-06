@@ -1,0 +1,28 @@
+.components{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.components__item{
+    box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+    background-color: white;
+    flex-basis: 350px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    box-sizing:border-box;
+    padding: 80px 24px 30px;
+
+}
+
+.components__name{
+    text-align: center;
+    margin-top: 75px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: var(--black);
+}

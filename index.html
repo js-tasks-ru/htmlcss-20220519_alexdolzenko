@@ -3,26 +3,35 @@
 <html lang="ru">
 <head>
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" type="text/css"
+          href="http://yui.yahooapis.com/3.18.1/build/cssnormalize-context/cssnormalize-context-min.css">
+    <link rel="stylesheet" href="./components/btn/button.css">
+    <link rel="stylesheet" href="./components/header/header.css">
+    <link rel="stylesheet" href="./components/components/components.css">
+    <link rel="stylesheet" href="./components/components/histogram.css">
+    <link rel="stylesheet" href="./components/main-content/main-content.css">
+    <link rel="stylesheet" href="./components/content-wrapper/content-wrapper.css">
+    <link rel="stylesheet" href="./components/main-footer/main-footer.css">
     <title>Main page</title>
 </head>
 <body>
 <div class="page">
     <header class="header">
         <div class="content-wrapper">
-            <div class="header-top">
-                <div class="header-top__logo">
+            <div class="header__top">
+                <div class="header__logo">
                     <img src="#" alt="#">
                 </div>
-                <nav class="header-top__nav">
-                    <ul class="header-top__menu">
-                        <li class="header-top__menu-item">Components</li>
-                        <li class="header-top__menu-item">About</li>
-                        <li class="header-top__menu-item">Contact</li>
+                <nav class="header__nav">
+                    <ul class="header__menu">
+                        <li class="header__menuitem">Components</li>
+                        <li class="header__menuitem">About</li>
+                        <li class="header__menu-item">Contact</li>
                     </ul>
-                    <div class="header-top__theme-switch"></div>
+                    <div class="header__theme-switch"></div>
                 </nav>
             </div>
-            <h1 class="header-title">Reusable component library</h1>
+            <h1 class="header__title">Reusable component library</h1>
         </div>
     </header>
     <main class="main-content">
@@ -36,14 +45,69 @@
                 </ul>
             </nav>
             <section class="components">
-                <div class="component-item"></div>
-                <div class="component-item"></div>
-                <div class="component-item"></div>
-                <div class="component-item"></div>
-                <div class="component-item"></div>
-                <div class="component-item"></div>
+                <div class="components__item">
+                    <h3 class="components__name">Tooltip</h3>
+                </div>
+                <div class="components__item">
+                    <h3 class="components__name">Custom form elements</h3>
+                </div>
+                <div class="components__item">
+                    <h3 class="components__name">Calendar</h3>
+                </div>
+                <div class="components__item">
+                    <h3 class="components__name">Modal dialog</h3>
+                </div>
+                <div class="components__item">
+                    <h3 class="components__name">Histogram</h3>
+                    <div class="histogram">
+                        <div class="histogram__upper-part">
+                            <div class="histogram__orders">
+                                <h3 class="histogram__orders-header">Total orders</h3>
+                                <span class="histogram__orders-count">50254</span>
+                            </div>
+                            <a class="histogram__view-all" href="#">View all</a>
+                        </div>
+                        <div class="histogram__lower-part">
+                            <div class="histogram__graph-row">
+                                <div class="histogram__graph-element" style="height: 100%"></div>
+                                <div class="histogram__graph-element" style="height: 70%"></div>
+                                <div class="histogram__graph-element" style="height: 50%"></div>
+                                <div class="histogram__graph-element" style="height: 80%"></div>
+                                <div class="histogram__graph-element" style="height: 50%"></div>
+                                <div class="histogram__graph-element" style="height: 60%"></div>
+                                <div class="histogram__graph-element" style="height: 80%"></div>
+                                <div class="histogram__graph-element" style="height: 30%"></div>
+                                <div class="histogram__graph-element" style="height: 50%"></div>
+                                <div class="histogram__graph-element" style="height: 70%"></div>
+                                <div class="histogram__graph-element" style="height: 100%"></div>
+                                <div class="histogram__graph-element" style="height: 70%"></div>
+                                <div class="histogram__graph-element" style="height: 50%"></div>
+                                <div class="histogram__graph-element" style="height: 80%"></div>
+                                <div class="histogram__graph-element" style="height: 50%"></div>
+                                <div class="histogram__graph-element" style="height: 60%"></div>
+                                <div class="histogram__graph-element" style="height: 80%"></div>
+                                <div class="histogram__graph-element" style="height: 30%"></div>
+                                <div class="histogram__graph-element" style="height: 50%"></div>
+                                <div class="histogram__graph-element" style="height: 70%"></div>
+                                <div class="histogram__graph-element" style="height: 100%"></div>
+                                <div class="histogram__graph-element" style="height: 70%"></div>
+                                <div class="histogram__graph-element" style="height: 50%"></div>
+                                <div class="histogram__graph-element" style="height: 80%"></div>
+                                <div class="histogram__graph-element" style="height: 50%"></div>
+                                <div class="histogram__graph-element" style="height: 60%"></div>
+                                <div class="histogram__graph-element" style="height: 80%"></div>
+                                <div class="histogram__graph-element" style="height: 30%"></div>
+                                <div class="histogram__graph-element" style="height: 50%"></div>
+                                <div class="histogram__graph-element" style="height: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="components__item">
+                    <h3 class="components__name">Avatar</h3>
+                </div>
             </section>
-            <button class="btn btn--alternate"></button>
+            <button class="btn btn--alternate">Load more</button>
         </div>
     </main>
     <footer class="main-footer">

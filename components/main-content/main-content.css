@@ -1,0 +1,16 @@
+.main-content {
+    background-color: #F9FAFC;
+
+}
+
+.main-content__menu {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.main-content .btn {
+    display: block;
+    margin: 64px auto
+}
