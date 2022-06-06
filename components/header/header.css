@@ -1,0 +1,15 @@
+.header__title{
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 64px;
+    color: var(--black);
+    margin: 40px 0;
+}
+
+.header__menu{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
