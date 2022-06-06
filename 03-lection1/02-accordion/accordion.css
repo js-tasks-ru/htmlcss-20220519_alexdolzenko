@@ -9,13 +9,6 @@
     border-radius: 8px;
     border: 1px solid var(--grey-3);
     margin: 0 auto 8px;
-}
-
-.accordion__item:last-child {
-    margin-bottom: 0;
-}
-
-.accordion-card {
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
@@ -25,13 +18,18 @@
     position: relative;
 }
 
+.accordion__item:last-child {
+    margin-bottom: 0;
+}
+
+
 .accordion__summary::after {
     position: absolute;
     right: 32px;
     content: ' \2192';
 }
 
-.accordion-card[open] .accordion__summary::after {
+.accordion__item[open] .accordion__summary::after {
     right: 32px;
     content: ' \2193';
 }
